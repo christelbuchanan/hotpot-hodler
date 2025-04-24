@@ -13,6 +13,7 @@ Hotpot Hodler puts you in charge of your own hotpot restaurant. Manage ingredien
 - **Restaurant Upgrades**: Invest in improvements to increase customer satisfaction and capacity
 - **Market Events**: React to dynamic market conditions that affect ingredient prices and customer demand
 - **Daily Operations**: Balance your budget, manage resources, and make strategic decisions each day
+- **Wallet Connection**: Connect your Web3 wallet to save progress and potentially earn rewards
 
 ## 🚀 Getting Started
 
@@ -20,6 +21,7 @@ Hotpot Hodler puts you in charge of your own hotpot restaurant. Manage ingredien
 
 - Node.js (v14 or higher)
 - npm or yarn
+- MetaMask or another Web3 wallet (for wallet connection features)
 
 ### Installation
 
@@ -51,6 +53,7 @@ yarn dev
 - **Styling**: Tailwind CSS
 - **Build Tool**: Vite
 - **Icons**: Lucide React
+- **Web3 Integration**: web3-react, ethers.js
 
 ## 🎯 Game Mechanics
 
@@ -78,6 +81,10 @@ yarn dev
 ### Upgrades
 - Invest in restaurant upgrades to improve various aspects of your business
 - Upgrades can affect customer satisfaction, ingredient costs, staff efficiency, and restaurant capacity
+
+### Wallet Connection
+- Connect your Web3 wallet to save game progress
+- Potential for future blockchain-based features and rewards
 
 ## 📝 License
 

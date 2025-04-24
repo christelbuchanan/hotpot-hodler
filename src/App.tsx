@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { GameProvider, useGame } from './context/GameContext';
+import { WalletProvider } from './context/WalletContext';
 import Header from './components/Header';
 import Dashboard from './components/Dashboard';
 import Inventory from './components/Inventory';
@@ -57,9 +58,11 @@ const GameContent: React.FC = () => {
 
 function App() {
   return (
-    <GameProvider>
-      <GameContent />
-    </GameProvider>
+    <WalletProvider>
+      <GameProvider>
+        <GameContent />
+      </GameProvider>
+    </WalletProvider>
   );
 }
 
